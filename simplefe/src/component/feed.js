@@ -1,17 +1,16 @@
 import React, { Component, useState } from 'react'
-import {fade } from "../../node_modules_old/@material-ui/core/styles";
+import {fade } from "../../node_modules/@material-ui/core/styles";
 import {connect} from 'react-redux'
 import {getFeed} from '../store/action'
-import {withStyles, Paper} from '../../node_modules_old/@material-ui/core';
-import AppBar from "../../node_modules_old/@material-ui/core/AppBar";
-import Toolbar from "../../node_modules_old/@material-ui/core/Toolbar";
-import Typography from "../../node_modules_old/@material-ui/core/Typography";
-import blue from "../../node_modules_old/@material-ui/core/colors/blue";
-import Icon from "../../node_modules_old/@material-ui/core/Icon";
-import Grid from "../../node_modules_old/@material-ui/core/Grid";
-import InputBase from '../../node_modules_old/@material-ui/core/InputBase';
+import {withStyles, Paper} from '../../node_modules/@material-ui/core';
+import AppBar from "../../node_modules/@material-ui/core/AppBar";
+import Toolbar from "../../node_modules/@material-ui/core/Toolbar";
+import Typography from "../../node_modules/@material-ui/core/Typography";
+import blue from "../../node_modules/@material-ui/core/colors/blue";
+import Icon from "../../node_modules/@material-ui/core/Icon";
+import InputBase from '../../node_modules/@material-ui/core/InputBase';
 import SearchIcon from '@material-ui/icons/Search';
-import Chip from '../../node_modules_old/@material-ui/core/Chip'
+import Chip from '../../node_modules/@material-ui/core/Chip'
 import moment from 'moment';
 
 const useStyles = (theme) => ({
