@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from '../../../node_modules_old/axios';
 export const GET_FEED = 'GET FEED';
 export const FEED_ERROR = 'FEED ERROR';
 
